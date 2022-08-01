@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ea6e37b9df13f57393d506f3e6b0b46",
+    "content-hash": "fe07a4eaa60a1cc7cd88192976abf635",
     "packages": [
         {
             "name": "brick/math",
@@ -1075,35 +1075,35 @@
         },
         {
             "name": "laravel/sanctum",
-            "version": "v2.15.1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "31fbe6f85aee080c4dc2f9b03dc6dd5d0ee72473"
+                "reference": "fae52063ea7fb1d916baba787918c40fd3d8ab62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/31fbe6f85aee080c4dc2f9b03dc6dd5d0ee72473",
-                "reference": "31fbe6f85aee080c4dc2f9b03dc6dd5d0ee72473",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/fae52063ea7fb1d916baba787918c40fd3d8ab62",
+                "reference": "fae52063ea7fb1d916baba787918c40fd3d8ab62",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/console": "^6.9|^7.0|^8.0|^9.0",
-                "illuminate/contracts": "^6.9|^7.0|^8.0|^9.0",
-                "illuminate/database": "^6.9|^7.0|^8.0|^9.0",
-                "illuminate/support": "^6.9|^7.0|^8.0|^9.0",
-                "php": "^7.2|^8.0"
+                "illuminate/console": "^9.21",
+                "illuminate/contracts": "^9.21",
+                "illuminate/database": "^9.21",
+                "illuminate/support": "^9.21",
+                "php": "^8.0.2"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "^4.0|^5.0|^6.0|^7.0",
-                "phpunit/phpunit": "^8.0|^9.3"
+                "orchestra/testbench": "^7.0",
+                "phpunit/phpunit": "^9.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "3.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -1136,7 +1136,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2022-04-08T13:39:49+00:00"
+            "time": "2022-07-25T13:44:55+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -5491,6 +5491,82 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
+        },
+        {
+            "name": "laravel-lang/lang",
+            "version": "11.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laravel-Lang/lang.git",
+                "reference": "7b9c41d06615a0a35e568979cbbd44d9431ecc55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/7b9c41d06615a0a35e568979cbbd44d9431ecc55",
+                "reference": "7b9c41d06615a0a35e568979cbbd44d9431ecc55",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "conflict": {
+                "laravel-lang/publisher": "<14.0"
+            },
+            "require-dev": {
+                "laravel-lang/publisher": "^14.0",
+                "laravel-lang/status-generator": "^1.3.7",
+                "php": "^8.1",
+                "phpunit/phpunit": "^9.5",
+                "symfony/var-dumper": "^5.0 || ^6.0"
+            },
+            "suggest": {
+                "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+                "laravel-lang/attributes": "Translations for field names of the forms",
+                "laravel-lang/http-statuses": "Translations for HTTP statuses",
+                "laravel-lang/publisher": "Easy installation and update of translation files for your project",
+                "overtrue/laravel-lang": "Command to add languages in your project"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelLang\\Lang\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelLang\\Lang\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laravel-Lang Team",
+                    "homepage": "https://github.com/Laravel-Lang"
+                }
+            ],
+            "description": "Languages for Laravel",
+            "keywords": [
+                "lang",
+                "languages",
+                "laravel",
+                "lpm"
+            ],
+            "support": {
+                "issues": "https://github.com/Laravel-Lang/lang/issues",
+                "source": "https://github.com/Laravel-Lang/lang"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/laravel-lang",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2022-07-21T19:16:09+00:00"
         },
         {
             "name": "laravel/pint",
